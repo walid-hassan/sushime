@@ -53,6 +53,19 @@ header{
 }
 .foods{
     background-color: #FF7F7F;
+    position: relative;
+}
+.s1 {
+    width: 90px;
+    position: absolute;
+    top: 350px;
+    left: 10px;
+}
+.s2 {
+    width: 120px;
+    position: absolute;
+    top: 150px;
+    right: 10px;
 }
 .best-title h1{
     font-size: 50px;
@@ -132,10 +145,31 @@ header{
 }
 .stact{
     padding-bottom: 40px;
+    position: relative;
+}
+.s3 {
+    width: 120px;
+    position: absolute;
+    top: 200px;
+    left: 5px;
+}
+.s4 {
+    width: 120px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.s5 {
+    width: 120px;
+    position: absolute;
+    top: 300px;
+    right: 35px;
+    z-index: 2;
 }
 .whitebg{
     padding: 20px !important;
     background-color: white;
+    position: relative;
 }
 .lower{
     padding: 30px !important;
@@ -144,6 +178,24 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+.s6 {
+    width: 120px;
+    position: absolute;
+    top: 50px;
+    left: 30%;
+}
+.s7 {
+    width: 120px;
+    position: absolute;
+    top: 200px;
+    right: 20px;
+}
+.s8 {
+    width: 120px;
+    position: absolute;
+    top: 400px;
+    left: 10px;
 }
 .reviewrs h1{
     font-size: 50px;
@@ -161,6 +213,13 @@ header{
     background-size: cover;
     min-height: 700px;
     padding: 20px;
+    position: relative;
+}
+.s9 {
+    width: 135px;
+    position: absolute;
+    left: 30%;
+    bottom: 70px;
 }
 .form-details{
     padding: 100px 0;
@@ -228,4 +287,14 @@ footer{
     font-size: 20px;
     font-weight: 700;
     border: none;
+}
+.icons img {
+    border: 2px solid #bababa;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0 8px;
+    transition: 1s;
+}
+.icons img:hover {
+    transform: rotateY(360deg);
 }
