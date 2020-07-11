@@ -298,3 +298,33 @@ footer{
 .icons img:hover {
     transform: rotateY(360deg);
 }
+
+
+@media (max-width:765px){
+    .s7 {
+        top: -11px;
+    }
+    .s8 {
+        top: 425px;
+        left: 145px;
+    }
+    .s6 {
+        top: 10px;
+        left: 10%;
+    }
+    .s4 {
+        top: -115px;
+    }
+    .s5 {
+        width: 95px;
+        bottom: 200px;
+    }
+    .slider {
+        height: 1000px;
+    }
+    .s2 {
+        width: 155px;
+        top: -220px;
+        right: 78px;
+    }
+}
